@@ -15,6 +15,7 @@ cap = cv.VideoCapture(mati_sciezka)
 backSub = cv.createBackgroundSubtractorMOG2()
 print()
 
+
 # funkcja stabliziująca
 def stablize_frame(prev_frame, curr_frame, transforms):
 
