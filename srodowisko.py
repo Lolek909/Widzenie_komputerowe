@@ -13,6 +13,7 @@ mati_sciezka = "C:/Users/mateu/Downloads/4K Road traffic video for object detect
 
 cap = cv.VideoCapture(mati_sciezka)
 backSub = cv.createBackgroundSubtractorMOG2()
+print()
 
 # funkcja stabliziująca
 def stablize_frame(prev_frame, curr_frame, transforms):
